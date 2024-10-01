@@ -25,8 +25,5 @@ jobs:
           include-prerelease: true
 
       - name: Build
-        run: dotnet build .\TradeWindsDateTime\TradeWindsDateTime.csproj --configuration Release
-
-      - name: Unit Tests
-        run: dotnet test .\UnitTests\UnitTests.csproj
+        run: dotnet build .\TradeWindsLoggerProvider\TradeWindsLoggerProvider.csproj --configuration Release
   
