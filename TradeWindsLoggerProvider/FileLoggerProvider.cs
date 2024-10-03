@@ -21,7 +21,7 @@
 
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using TradeWindsExtensions;
+using TradeWindsCommon.Extensions;
 
 namespace TradeWindsLoggerProvider
 {

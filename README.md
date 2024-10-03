@@ -6,6 +6,10 @@ Here is why we ended up with this. We started with Serilog but it had (may be fi
 
 So I created this. If you face the same problem, or for some other reason, need a basic simple LoggerProvider, here it is. It writes to File and Blob. It is in use and is fast and has very little overhead.
 
+> This is under the MIT license. If you find this very useful I ask (not a requirement) that you consider reading my book [I DON’T KNOW WHAT I’M DOING!: How a Programmer Became a Successful Startup CEO](https://a.co/d/bEpDlJR).
+> 
+> And if you like it, please review it on Amazon and/or GoodReads. The number of legitimate reviews helps a lot. Much appreciated.
+
 ### Mapping configuration to your LoggerProvider
 
 The magic is the `ProviderAlias`:
@@ -20,8 +24,4 @@ I have no idea how to write unit tests for a LoggerProvider as it's all part of 
 
 We did test this thoroughly. But the testing was as part of our web app, including stepping through in places with the debugger.
 
-### License
 
-This is under the MIT license. If you find this very useful I ask (not a requirement) that you consider reading my book [I DON’T KNOW WHAT I’M DOING!: How a Programmer Became a Successful Startup CEO](https://a.co/d/bEpDlJR).
-
-And if you like it, please review it on Amazon and/or GoodReads. The number of legitimate reviews helps a lot. Much appreciated.

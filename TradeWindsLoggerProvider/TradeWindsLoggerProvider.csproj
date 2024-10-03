@@ -4,12 +4,41 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Version>1.0.0.2</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>LoggerProvider for File and Azure Blob</Title>
+    <Authors>DavidThielen</Authors>
+    <Company>Trade Winds Studios</Company>
+    <Description>LoggerProviders: for File and Azure Blob sinks</Description>
+    <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/DavidThielen/TradeWindsLoggerProvider</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/DavidThielen/TradeWindsLoggerProvider</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>LoggerProvider; Azure BLOB Storage</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>books_blue.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\books_blue.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.22.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
-    <PackageReference Include="TradeWindsExtensions" Version="1.0.0.1" />
+    <PackageReference Include="TradeWindsCommon" Version="1.0.0.2" />
   </ItemGroup>
 
 </Project>

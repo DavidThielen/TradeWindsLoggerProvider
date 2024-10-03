@@ -22,7 +22,7 @@
 using System.Text;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Specialized;
-using TradeWindsExtensions;
+using TradeWindsCommon.Extensions;
 
 namespace TradeWindsLoggerProvider
 {
